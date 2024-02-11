@@ -1,0 +1,41 @@
+﻿<Window x:Class="Task2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListBox Margin="10" Name="list1"></ListBox>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Margin="10,5,10, 5" Click="Button_Click">Информация о товаре</Button>
+            <Button Grid.Row="1" Margin="10,5,10, 5" Click="Button_Click_1">Типы товаров</Button>
+            <Button Grid.Row="2" Margin="10,5,10, 5" Click="Button_Click_2">Поставщики</Button>
+            <Button Grid.Row="3" Margin="10,5,10, 5" Click="Button_Click_3">Товар с максимальным количеством</Button>
+            <Button Grid.Row="4" Margin="10,5,10, 5" Click="Button_Click_4">Товар с минимальным количеством</Button>
+            <Button Grid.Row="0" Grid.Column="1" Margin="10,5,10, 5" Click="Button_Click_5">Товар с минимальной себестоимостью</Button>
+            <Button Grid.Row="1" Grid.Column="1" Margin="10,5,10, 5" Click="Button_Click_6">Товар с максимальной себестоимостью</Button>
+            <Button Grid.Row="2" Grid.Column="1" Margin="10,5,10, 5" Click="Button_Click_7">Товары заданной категории</Button>
+            <Button Grid.Row="3" Grid.Column="1" Margin="10,5,10, 5" Click="Button_Click_8">Товары заданного поставщика</Button>
+            <Button Grid.Row="4" Grid.Column="1" Margin="10,5,10, 5" Click="Button_Click_9">Самый старый товар на складе</Button>
+            <Button Grid.Row="5" Grid.ColumnSpan="2" Margin="10,5,10, 5" Click="Button_Click_10">Среднее количество товаров по каждому типу товара</Button>
+        </Grid>
+    </Grid>
+</Window>

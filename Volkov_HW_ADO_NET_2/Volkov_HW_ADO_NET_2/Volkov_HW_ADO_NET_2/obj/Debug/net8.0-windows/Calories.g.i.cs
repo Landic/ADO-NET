@@ -61,7 +61,7 @@ namespace Volkov_HW_ADO_NET_2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Volkov_HW_ADO_NET_2;component/calories.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Volkov_HW_ADO_NET_2;V1.0.0.0;component/calories.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Calories.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

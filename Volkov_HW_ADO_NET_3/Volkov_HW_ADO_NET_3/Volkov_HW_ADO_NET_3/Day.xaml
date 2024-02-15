@@ -1,0 +1,23 @@
+﻿<Window x:Class="Volkov_HW_ADO_NET_3.Day"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volkov_HW_ADO_NET_3"
+        mc:Ignorable="d"
+        Title="Day" Height="100" Width="300" MinHeight="100" MinWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.8*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center">Введите дни</Label>
+        <TextBox Grid.Column="1" Margin="5" Name="textbox1"></TextBox>
+        <Button Grid.Row="2" Grid.Column="1" Margin="5" Click="Button_Click">ОК</Button>
+        <Button Grid.Row="2" Margin="5" Click="Button_Click_1">Отмена</Button>
+    </Grid>
+</Window>

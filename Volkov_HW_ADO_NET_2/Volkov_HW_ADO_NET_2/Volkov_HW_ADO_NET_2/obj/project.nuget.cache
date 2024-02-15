@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EOfvLV3e1vAQAGfBOzaMRZWzg5X69RsLAxwniCm1hOYXqNdwS//NYdcLqAcZdr07mvw2tPh1nJwmWSVfiSQQmQ==",
+  "dgSpecHash": "nXCKssVtDlQcLkmfdCrF+NZH1V4xv0IPoJjVJe3x+v0PqH1LFfMQ1rSaMjTHLv+ElTGMGeKkPMfGJj4o6kD2EA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\ADO-NET\\Volkov_HW_ADO_NET_2\\Volkov_HW_ADO_NET_2\\Volkov_HW_ADO_NET_2.csproj",
+  "projectFilePath": "D:\\Projects\\ADO-NET\\Volkov_HW_ADO_NET_2\\Volkov_HW_ADO_NET_2\\Volkov_HW_ADO_NET_2\\Volkov_HW_ADO_NET_2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrwol\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\mrwol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

@@ -61,7 +61,7 @@ namespace Volkov_HW_ADO_NET_2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Volkov_HW_ADO_NET_2;component/color.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Volkov_HW_ADO_NET_2;V1.0.0.0;component/color.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Color.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

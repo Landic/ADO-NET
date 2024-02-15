@@ -1,0 +1,23 @@
+﻿<Window x:Class="Volkov_HW_ADO_NET_3.DeleteProvider"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volkov_HW_ADO_NET_3"
+        mc:Ignorable="d"
+        Title="DeleteProvider" Height="100" Width="300" MinHeight="100" MinWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center">Выберете поставщика</Label>
+        <ComboBox Grid.Column="1" Margin="5" Name="combobox1"></ComboBox>
+        <Button Grid.Row="4" Grid.Column="1" Margin="5" Click="Button_Click">Удалить</Button>
+        <Button Grid.Row="4" Margin="5" Click="Button_Click_1">Отмена</Button>
+    </Grid>
+</Window>

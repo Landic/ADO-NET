@@ -1,0 +1,40 @@
+﻿<Window x:Class="Volkov_HW_ADO_NET_3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volkov_HW_ADO_NET_3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Add">
+                <MenuItem Header="Вставка новых товаров" Click="MenuItem_Click"/>
+                <MenuItem Header="Вставка новых типов товаров" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Вставка новых поставщиков" Click="MenuItem_Click_2"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Обновление информации о существующих товарах" Click="MenuItem_Click_3"/>
+                <MenuItem Header="Обновление информации о существующих поставщиках" Click="MenuItem_Click_4"/>
+                <MenuItem Header="Обновление информации о существующих типах товаров" Click="MenuItem_Click_5"/>
+            </MenuItem>
+            <MenuItem Header="Delete">
+                <MenuItem Header="Удаление товаров" Click="MenuItem_Click_6"/>
+                <MenuItem Header="Удаление поставщиков" Click="MenuItem_Click_7"/>
+                <MenuItem Header="Удаление типов товаров" Click="MenuItem_Click_8"/>
+            </MenuItem>
+            <MenuItem Header="Show">
+                <MenuItem Header="Показать информацию о поставщике с наибольшим количеством товаров на складе" Click="MenuItem_Click_9"/>
+                <MenuItem Header="Показать информацию о поставщике с наименьшим количеством товаров на складе" Click="MenuItem_Click_10"/>
+                <MenuItem Header="Показать информацию о типе товаров с наибольшим количеством товаров на складе" Click="MenuItem_Click_11"/>
+                <MenuItem Header="Показать информацию о типе товаров с наименьшим количеством товаров на складе" Click="MenuItem_Click_12"/>
+                <MenuItem Header="Показать товары с поставки, которых прошло заданное количество дней" Click="MenuItem_Click_13"/>
+            </MenuItem>
+        </Menu>
+        <ListBox Grid.Row="1" Margin="5" Name="listbox1"></ListBox>
+    </Grid>
+</Window>

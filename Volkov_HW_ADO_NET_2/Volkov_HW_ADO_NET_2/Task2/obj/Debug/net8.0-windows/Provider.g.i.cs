@@ -61,7 +61,7 @@ namespace Task2 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Task2;component/provider.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Task2;V1.0.0.0;component/provider.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Provider.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

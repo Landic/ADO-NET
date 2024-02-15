@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dBcOGCSn8IUCnBA2g+8ctRGmTqckHJBNNJNDb9kQOIu6Tnia1C+8S04b9JOR6ny6snX3r8VzfITtFeKBo2e5BQ==",
+  "dgSpecHash": "C0VWjRE107lSqwtD5dxNCuVh/I2pRUBP5eZ4mwNWa8c7aKK/Y4axnHynZTfxwtD3qRPReJfd+DoVvYRprGPhpA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\ADO-NET\\Volkov_HW_ADO_NET_2\\Task2\\Task2.csproj",
+  "projectFilePath": "D:\\Projects\\ADO-NET\\Volkov_HW_ADO_NET_2\\Volkov_HW_ADO_NET_2\\Task2\\Task2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrwol\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\mrwol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

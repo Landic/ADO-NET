@@ -1,0 +1,32 @@
+﻿<Window x:Class="Volkov_HW_ADO_NET_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volkov_HW_ADO_NET_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Show">
+                <MenuItem Header="Вся информация о концтоварах" Click="MenuItem_Click"/>
+                <MenuItem Header="Все типы концтоваров" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Все менеджеры по продаже" Click="MenuItem_Click_2"/>
+                <MenuItem Header="Концтовары с макс. количеством единиц" Click="MenuItem_Click_3"/>
+                <MenuItem Header="Концтовары с мин. количеством единиц" Click="MenuItem_Click_4"/>
+                <MenuItem Header="Концтовары с мин. себестоимостью единицы" Click="MenuItem_Click_5"/>
+                <MenuItem Header="Концтовары с макс. себестоимостью единицы" Click="MenuItem_Click_6"/>
+                <MenuItem Header="Концтовары заданного типа" Click="MenuItem_Click_7"/>
+                <MenuItem Header="Концтовар который продал конкретный менеджер" Click="MenuItem_Click_8"/>
+                <MenuItem Header="Концтовар которая купила конкретная фирма" Click="MenuItem_Click_9"/>
+                <MenuItem Header="Информация о самой недавней продажи" Click="MenuItem_Click_10"/>
+                <MenuItem Header="Среднее количество товаров по каждому типу концтовару" Click="MenuItem_Click_11"/>
+            </MenuItem>
+        </Menu>
+        <ListBox Grid.Row="1" Margin="5" Name="listbox1"></ListBox>
+    </Grid>
+</Window>

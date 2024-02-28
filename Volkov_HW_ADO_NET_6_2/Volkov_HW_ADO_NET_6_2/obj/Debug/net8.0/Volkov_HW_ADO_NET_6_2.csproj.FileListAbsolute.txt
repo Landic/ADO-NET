@@ -1,0 +1,15 @@
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.AssemblyInfoInputs.cache
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.AssemblyInfo.cs
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.csproj.CoreCompileInputs.cache
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.sourcelink.json
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\bin\Debug\net8.0\Volkov_HW_ADO_NET_6_2.exe
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\bin\Debug\net8.0\Volkov_HW_ADO_NET_6_2.deps.json
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\bin\Debug\net8.0\Volkov_HW_ADO_NET_6_2.runtimeconfig.json
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\bin\Debug\net8.0\Volkov_HW_ADO_NET_6_2.dll
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\bin\Debug\net8.0\Volkov_HW_ADO_NET_6_2.pdb
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.dll
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\refint\Volkov_HW_ADO_NET_6_2.dll
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.pdb
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\Volkov_HW_ADO_NET_6_2.genruntimeconfig.cache
+D:\Projects\ADO-NET\Volkov_HW_ADO_NET_6_2\Volkov_HW_ADO_NET_6_2\obj\Debug\net8.0\ref\Volkov_HW_ADO_NET_6_2.dll

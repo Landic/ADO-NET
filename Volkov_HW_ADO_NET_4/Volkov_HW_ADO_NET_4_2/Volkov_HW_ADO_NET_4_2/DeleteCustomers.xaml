@@ -1,0 +1,31 @@
+﻿<Window x:Class="Volkov_HW_ADO_NET_4_2.DeleteCustomers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volkov_HW_ADO_NET_4_2"
+        mc:Ignorable="d"
+        Title="DeleteCustomers" Height="130" Width="350" MinHeight="130" MinWidth="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Margin="5">Фирма</Label>
+            <ComboBox Grid.Column="1" Grid.Row="0" Margin="5" Name="comboBox1"></ComboBox>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="5" Click="Button_Click_1">Отмена</Button>
+            <Button Grid.Column="1" Margin="5" Click="Button_Click">OK</Button>
+        </Grid>
+    </Grid>
+</Window>

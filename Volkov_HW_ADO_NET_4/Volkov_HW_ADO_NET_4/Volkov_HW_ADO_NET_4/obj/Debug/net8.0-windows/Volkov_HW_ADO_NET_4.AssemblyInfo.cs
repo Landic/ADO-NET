@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Volkov_HW_ADO_NET_4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eecf214e2d3a244dd734ec5f6420ffacecfad43a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9b21c3587a45d003cc20bcc46291a7344050880")]
 [assembly: System.Reflection.AssemblyProductAttribute("Volkov_HW_ADO_NET_4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Volkov_HW_ADO_NET_4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

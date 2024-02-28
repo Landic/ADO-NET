@@ -1,0 +1,46 @@
+﻿<Window x:Class="Volkov_HW_ADO_NET_4_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Volkov_HW_ADO_NET_4_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Add">
+                <MenuItem Header="Добавить новые концатавары" Click="MenuItem_Click"/>
+                <MenuItem Header="Добавить новые типы концатаваров" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Добавить новых менеджеров" Click="MenuItem_Click_2"/>
+                <MenuItem Header="Добавить новые фирмы покупателей" Click="MenuItem_Click_3"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Изменить информацию о концтоварах" Click="MenuItem_Click_4"/>
+                <MenuItem Header="Изменить информацию о фирмах покупателей" Click="MenuItem_Click_5"/>
+                <MenuItem Header="Изменить информацию о менеджерах по продаже" Click="MenuItem_Click_6"/>
+                <MenuItem Header="Изменить информацию о типах концтоваров" Click="MenuItem_Click_7"/>
+            </MenuItem>
+            <MenuItem Header="Delete">
+                <MenuItem Header="Удаление концтоваров" Click="MenuItem_Click_8"/>
+                <MenuItem Header="Удаление менеджеров по продаже" Click="MenuItem_Click_9"/>
+                <MenuItem Header="Удаление типов концтоваров" Click="MenuItem_Click_10"/>
+                <MenuItem Header="Удаление фирм покупателей" Click="MenuItem_Click_11"/>
+            </MenuItem>
+            <MenuItem Header="Show">
+                <MenuItem Header="Показать информацию о менеджере с наибольшим количеством продаж по количеству единиц" Click="MenuItem_Click_12"/>
+                <MenuItem Header="Показать информацию о менеджере по продажам с наибольшей общей суммой прибыли" Click="MenuItem_Click_13"/>
+                <MenuItem Header="Показать информацию о менеджере по продажам с наибольшей общей суммой прибыли за указанный промежуток времени" Click="MenuItem_Click_14"/>
+                <MenuItem Header="Показать информацию о фирме покупателе, которая купила на самую большую сумму" Click="MenuItem_Click_15"/>
+                <MenuItem Header="Показать информацию о типе канцтоваров с наибольшим количеством продаж по единицам" Click="MenuItem_Click_16"/>
+                <MenuItem Header="Показать информацию о типе самых прибыльных канцтоваров" Click="MenuItem_Click_17"/>
+                <MenuItem Header="Показать название самых популярных канцтоваров. Популярность высчитываем по количеству проданных единиц" Click="MenuItem_Click_18"/>
+                <MenuItem Header="Показать название канцтоваров, которые не продавались заданное количество дней" Click="MenuItem_Click_19"/>
+            </MenuItem>
+        </Menu>
+        <ListBox Grid.Row="1" Margin="5" Name="listbox1"></ListBox>
+    </Grid>
+</Window>

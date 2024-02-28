@@ -1,0 +1,13 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Volkov_HW_ADO_NET_4_2_v4sxc0bl_wpftmp
+build_property.ProjectDir = D:\Projects\ADO-NET\Volkov_HW_ADO_NET_4\Volkov_HW_ADO_NET_4_2\Volkov_HW_ADO_NET_4_2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

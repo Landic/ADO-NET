@@ -45,8 +45,12 @@
                 { Id = 7, FirstName = "Nikita", LastName = " Krotov ", Age = 27, DepId = 4 }
             };
 
-            var ukrainianOdessa = employees.Where(i => departments.Any(j => j.Id == i.DepId && j.Country == "Ukraine" && j.City != "Odesa")).Select(i => new { i.FirstName, i.LastName });
-            Console.WriteLine("Работники работающие в Украине но не в городе Одесса:");
+
+            var ukrainianOdessa = (from i in employees
+                                                 join j in departments on i.DepId equals j.Id
+                                                 where j.Country == "Ukraine" && j.City != "Odesa"
+                                                 select new { i.FirstName, i.LastName }).ToList();
+            Console.WriteLine("\n\n\nРаботники работающие в Украине но не в городе Одесса:");
             foreach (var i in ukrainianOdessa)
             {
                 Console.WriteLine($"{i.FirstName} {i.LastName}");
@@ -54,9 +58,7 @@
 
 
 
-
-
-            var Countries = departments.Select(i => i.Country).Distinct();
+            var Countries = departments.Select(i => i.Country).Distinct().ToList();
             Console.WriteLine("\n\n\nСтраны без повторений:");
             foreach (var i in Countries)
             {
@@ -64,55 +66,10 @@
             }
 
 
-            var older25 = employees.Where(i => i.Age > 25).Take(3);
+
+            var older25 = employees.Where(i => i.Age > 25).Take(3).ToList();
             Console.WriteLine("\n\n\nСтарше 25 работники первые 3:");
             foreach (var i in older25)
-            {
-                Console.WriteLine($"{i.FirstName} {i.LastName}, {i.Age}");
-            }
-
-
-            var KyivStudents23 = employees.Where(i => departments.Any(j => j.Id == i.DepId && j.City == "Kyiv") && i.Age > 23).Select(i => new { i.FirstName, i.LastName, i.Age });
-            Console.WriteLine("\n\n\nСтуденты старше 23 лет в Киеве:");
-            foreach (var i in KyivStudents23)
-            {
-                Console.WriteLine($"{i.FirstName} {i.LastName}, {i.Age}");
-            }
-
-
-
-
-
-            Console.WriteLine("////////////////////////////////////////////////////////////////////////////");
-
-            //////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-            var ukrainianOdessa2 = (from i in employees
-                                                 join j in departments on i.DepId equals j.Id
-                                                 where j.Country == "Ukraine" && j.City != "Odesa"
-                                                 select new { i.FirstName, i.LastName }).ToList();
-            Console.WriteLine("\n\n\nРаботники работающие в Украине но не в городе Одесса:");
-            foreach (var i in ukrainianOdessa2)
-            {
-                Console.WriteLine($"{i.FirstName} {i.LastName}");
-            }
-
-
-
-            var Countries2 = departments.Select(i => i.Country).Distinct().ToList();
-            Console.WriteLine("\n\n\nСтраны без повторений:");
-            foreach (var i in Countries2)
-            {
-                Console.WriteLine(i);
-            }
-
-
-
-            var older252 = employees.Where(i => i.Age > 25).Take(3).ToList();
-            Console.WriteLine("\n\n\nСтарше 25 работники первые 3:");
-            foreach (var i in older252)
             {
                 Console.WriteLine($"{i.FirstName} {i.LastName}, Age: {i.Age}");
             }
@@ -120,13 +77,13 @@
 
 
 
-            var KyivStudents232 = (from i in employees
+            var KyivStudents23 = (from i in employees
                                        join j in departments on i.DepId equals j.Id
                                        where j.City == "Kyiv" && i.Age > 23
                                        select new { i.FirstName, i.LastName, i.Age }).ToList();
 
             Console.WriteLine("\n\n\nСтуденты старше 23 лет в Киеве:");
-            foreach (var i in KyivStudents232)
+            foreach (var i in KyivStudents23)
             {
                 Console.WriteLine($"{i.FirstName} {i.LastName}, Age: {i.Age}");
             }

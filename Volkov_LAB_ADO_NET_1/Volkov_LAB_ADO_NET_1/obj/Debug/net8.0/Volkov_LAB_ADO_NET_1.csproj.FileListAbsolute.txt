@@ -1,0 +1,15 @@
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\bin\Debug\net8.0\Volkov_LAB_ADO_NET_1.exe
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\bin\Debug\net8.0\Volkov_LAB_ADO_NET_1.deps.json
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\bin\Debug\net8.0\Volkov_LAB_ADO_NET_1.runtimeconfig.json
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\bin\Debug\net8.0\Volkov_LAB_ADO_NET_1.dll
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\bin\Debug\net8.0\Volkov_LAB_ADO_NET_1.pdb
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.AssemblyInfoInputs.cache
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.AssemblyInfo.cs
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.csproj.CoreCompileInputs.cache
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.sourcelink.json
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.dll
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\refint\Volkov_LAB_ADO_NET_1.dll
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.pdb
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\Volkov_LAB_ADO_NET_1.genruntimeconfig.cache
+D:\Projects\ADO-NET\Volkov_LAB_ADO_NET_1\Volkov_LAB_ADO_NET_1\obj\Debug\net8.0\ref\Volkov_LAB_ADO_NET_1.dll

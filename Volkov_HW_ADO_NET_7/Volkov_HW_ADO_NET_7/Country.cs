@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Volkov_HW_ADO_NET_7
 {
-    internal class Country
+    public class Country
     {
         public int ID {  get; set; }
         public string Name { get; set; }
